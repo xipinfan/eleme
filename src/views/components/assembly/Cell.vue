@@ -14,15 +14,6 @@
 <script>
 export default {
   name:"Cell",
-  data() {
-      return {
-          CellName1:"",
-          CellFont1:"",
-      }
-  },
-  methods: {
-      
-  },
   props:["CellName","CellFont"],
 }
 </script>
