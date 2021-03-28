@@ -19,7 +19,7 @@ const routes = [
     component: Business,
     children:[
       {
-        path:'reserve',
+        path:'reserve', 
         component: Reserve,
         name:'reserve'
       },
